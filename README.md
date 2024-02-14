@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Task 01: Web Cars - Plataforma de Vendas de Carros
+Bem-vindo à Task 01 do projeto Redux! Nesta tarefa, desenvolvemos a Web Cars, uma plataforma de vendas de carros onde os usuários podem visualizar uma variedade de veículos disponíveis para compra, adicionar carros ao carrinho e finalizar a compra.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Funcionalidades Implementadas:
 
-## Available Scripts
+Catálogo de Carros:
 
-In the project directory, you can run:
+Os usuários podem visualizar uma lista de carros disponíveis para venda.
+Cada carro é exibido com informações detalhadas, como marca, modelo, ano e preço.
+Adicionar ao Carrinho:
 
-### `npm start`
+Os usuários podem adicionar carros ao carrinho de compras clicando no botão correspondente em cada item do catálogo.
+Carrinho de Compras:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Exibe os carros selecionados pelo usuário para compra.
+Mostra o total da compra e fornece opções para atualizar a quantidade de carros no carrinho ou remover carros selecionados.
+Finalizar Compra:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Os usuários podem finalizar a compra, preenchendo informações de pagamento e envio.
+Após a conclusão da compra, os detalhes do pedido são exibidos ao usuário.
 
-### `npm test`
+## Recursos Utilizados:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React: Utilizamos o React para construir a interface do usuário dinâmica e responsiva.
 
-### `npm run build`
+Redux: Implementamos o Redux para gerenciar o estado da aplicação de forma eficiente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React Router: Utilizamos o React Router para lidar com a navegação entre as diferentes páginas da aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estilização CSS: Estilizamos os componentes usando CSS para uma experiência visual atraente e coesa.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como Executar o Projeto:
 
-### `npm run eject`
+  Clone o repositório do projeto para o seu ambiente local.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  Navegue até o diretório do projeto e execute npm install para instalar as dependências necessárias.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Após a instalação das dependências, execute npm start para iniciar o servidor de desenvolvimento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Acesse a aplicação no seu navegador usando o endereço http://localhost:3000.
